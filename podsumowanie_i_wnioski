@@ -1,0 +1,40 @@
+## Przegląd projektu
+Projekt ten analizuje dane sprzedażowe fikcyjnej kawiarni z lat 2019–2022. 
+Jego celem jest zidentyfikowanie kluczowych trendów w zakresie:
+
+- przychodów
+- wyników sprzedażowych produktów
+- rentowności w poszczególnych regionach 
+
+Panel raportowy został stworzony w programie Excel z wykorzystaniem:
+
+-tabel przestawnych
+-filtrów (slicerów)
+-dynamicznych wykresów
+
+Celem było stworzenie interaktywnego narzędzia, które ułatwia zarządowi biznesowemu szybkie uzyskanie spozstrzerzeń w dane dotyczące histori sprzedaży.
+
+
+
+## Realizacja projektu
+
+1. **Import danych**
+   - Zaimportowano dane sprzedażowych z githuba
+
+2. **Czyszczenie danych**
+   - Usunięto duplikaty i puste wartości
+   - Poprawiono niespójności w danych
+
+3. **Analiza danych**
+   - Użyto funkcji XLOOKUP() oraz INDEX + MATCH(), aby pobrać wybrane kolumny z tabel klientów i produktów do tabeli zamówień
+   - Zastosowano funkcję IF(), aby zamienić skróty nazw marek kawy na ich pełne nazwy oraz zastąpić brakujące wartości pustymi komórkami
+   - Obliczono kluczowy wskaźniki zysk
+
+4. **Tworzenie panelu raportowego**
+   - Zbudowano tabele przestawne umożliwiające filtrowanie danych
+   - Stworzono wykresy liniowe i słupkowe
+   - Zastosowano segmentatory (slicery), umożliwiające interaktywne przeglądanie wyników (wg. typu palenia kawy, posiadania karty lojalnościowej).
+
+5. **Wnioski i interpretacja**
+   - Wyróżniono istotne wzorce w zachowaniach klientów i sprzedaży produktów.
+   - Podsumowano najważniejsze obserwacje z punktu widzenia biznesowego.
