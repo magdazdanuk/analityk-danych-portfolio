@@ -16,6 +16,32 @@ Celem było stworzenie interaktywnego narzędzia, które ułatwia zarządowi biz
 
 
 
+## Kluczowe wnioski 
+
+- Sprzedaż wzrosła o 8% w latach 2019–2020, jednak między 2020 a 2022 spadła o 41%
+- Stany Zjednoczone odpowiadają za 78% całkowitej sprzedaży
+- Rynek jest zrównoważony pod względem rodzaju kawy: Arabica, Excelsa i Liberica mają po 26–28% udziału w sprzedaży, natomiast Robusta odonsi mniejszy udział
+- Średnia cena sprzedaży wynosi 22 zł
+- Przychody ze sprzedaży z kartą lojalnościową są niemal identyczne jak bez niej
+- Piątek to dzień tygodnia z największą liczbą transakcji – 18% całkowitej sprzedaży
+- Największe przychody generowane są w czerwcu (11%), a najmniejsze w sierpniu (5%)
+
+
+
+## Rekomendacje 
+
+- Przeprowadzanie dogłębnej analizę przyczyn spadku sprzedaży 
+- Utworzenie kampani reaktywujących klientów 
+- Rozważyć ukierunkowane promocje w miesiącach o słabszej sprzedaży, np. w sierpniu
+- Zdywersyfikować obecność geograficzną, aby zmniejszyć ryzyko — eksplorować rynki wschodzące lub kraje z niższą wydajnością sprzedaży
+- Opracować lokalne strategie marketingowe dla regionów poza Stanami Zjednoczonymi, aby zwiększyć udział w rynku
+- Kontynuowanie różnorodnej oferty — klienci angażują się w zakup różnych rodzajów ziaren kawy
+- Dokonanie przeglądu programu lojalnościowego — rozważyć wprowadzenie ekskluzywnych korzyści, punktów lub ofert spersonalizowanych
+- Wprowadzenie promocji, ofert specjalnych skoncentrowanych na piątkach, aby dodatkowo zwiększyć sprzedaż
+- Utworzenie premiery nowych produktów na czerwiec, gdy zainteresowanie klientów jest najwyższe
+
+
+
 ## Realizacja projektu
 
 1. **Import danych**
@@ -33,8 +59,18 @@ Celem było stworzenie interaktywnego narzędzia, które ułatwia zarządowi biz
 4. **Tworzenie panelu raportowego**
    - Zbudowano tabele przestawne umożliwiające filtrowanie danych
    - Stworzono wykresy liniowe i słupkowe
-   - Zastosowano segmentatory (slicery), umożliwiające interaktywne przeglądanie wyników (wg. typu palenia kawy, posiadania karty lojalnościowej).
+   - Zastosowano segmentatory (slicery), umożliwiające interaktywne przeglądanie wyników (wg. typu palenia kawy, posiadania karty lojalnościowej)
 
 5. **Wnioski i interpretacja**
-   - Wyróżniono istotne wzorce w zachowaniach klientów i sprzedaży produktów.
-   - Podsumowano najważniejsze obserwacje z punktu widzenia biznesowego.
+   - Wyróżniono istotne wzorce w zachowaniach klientów i sprzedaży produktów
+   - Podsumowano najważniejsze obserwacje z punktu widzenia biznesowego
+
+
+
+## Podsumowanie danych 
+
+Źródło danych: https://github.com/mochen862/excel-project-coffee-sales/blob/main/coffeeOrdersData.xlsx
+Okres analizy: styczeń 2019 – grudzień 2022  
+Liczba wierszy: 1001  
+Kolumny: Kod Zamówienia, Data Zamówienia, Kod Klienta, Kod Produktu, Ilość, Imię Klienta, Email, Kraj, Typ Kawy, Rodzaj Palenia, Rozmiar, Cena Za Sztukę, Zysk, Nazwa Typu Kawy, Karta Lojalnościowa, Nazwa Typu Palenia, Dzień Tygodnia
+
