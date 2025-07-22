@@ -1,0 +1,76 @@
+## Overview
+This project analyzes the sales data of a fictional coffee shop from 2019 to 2022. The main goal is to identify key trends related to:
+-Revenue
+-Product sales performance
+-Profitability across different regions
+
+The interactive dashboard was created using Microsoft Excel and includes:
+Pivot tables
+Slicers (filters)
+Dynamic charts
+
+This tool is designed to help business management quickly gain insights into historical sales data.
+
+
+
+##Key Insights
+
+-Sales increased by 8% from 2019 to 2020 but then dropped by 41% between 2020 and 2022
+-The United States accounts for 78% of total sales
+-The coffee market is balanced by type: Arabica, Excelsa, and Liberica each hold about 26–28% market share, while Robusta has a smaller share
+-Average selling price is 22 PLN
+-Revenues from sales with loyalty cards are nearly identical to those without
+-Friday has the highest number of transactions, accounting for 18% of total sales
+-Highest revenue is generated in June (11%), lowest in August (5%)
+
+
+
+##Recommendations
+
+-Conduct a thorough analysis to understand the causes of the sales decline
+-Launch customer reactivation campaigns
+-Consider targeted promotions during low-sales months, such as August
+-Diversify geographic presence to reduce risk — explore emerging markets or countries with lower sales
+-Develop localized marketing strategies for regions outside the US to increase market share
+-Continue offering a diverse range of coffee types — customers engage with various bean types
+-Review the loyalty program and consider adding exclusive benefits, points, or personalized offers
+-Introduce Friday-focused promotions to further boost sales
+-Plan new product launches in June, when customer interest peaks
+
+
+
+##Project Workflow
+1.Data Import
+
+-Imported sales data from GitHub repository
+
+2.Data Cleaning
+
+-Removed duplicates and empty values
+-Corrected data inconsistencies
+
+3.Data Analysis
+
+-Used Excel functions such as XLOOKUP() and INDEX + MATCH() to fetch customer and product details into the orders table
+-Used IF() to replace coffee brand abbreviations with full names and handle missing values
+-Calculated key profit indicators
+
+3.Dashboard Creation
+
+-Built pivot tables with filtering options
+-Created line and bar charts
+-Added slicers for interactive filtering by coffee roast type and loyalty card status
+
+4.Insights and Interpretation
+
+-Identified important patterns in customer behavior and product sales
+-Summarized business-relevant observations
+
+
+
+##Data Summary
+Source: coffeeOrdersData.xlsx
+Period: January 2019 – December 2022
+Rows: 1001
+Columns: Order Code, Order Date, Customer Code, Product Code, Quantity, Customer Name, Email, Country, Coffee Type, Roast Type, Size, Price Per Unit, Profit, Coffee Type Name, Loyalty Card, Roast Type Name, Day of the Week
+
